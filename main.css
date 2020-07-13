@@ -1,0 +1,313 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+.title {
+  font-family: 'Righteous';
+  font-size: 36px;
+  user-select: none;
+}
+.start-box {
+  padding: 35% 0 45% 0;
+  text-align: center;
+}
+.download-box {
+  padding: 5% 0 5% 0;
+  text-align: center;
+}
+.rounded-btn {
+  padding: 20px 40px;
+  border-radius: 100px;
+  background-color: white;
+  box-shadow: 8px 12px 32px #00000056;
+  cursor: pointer;
+} .rounded-btn:hover, .rounded-btn:active, .rounded-btn:focus {
+  padding: 20px 80px;
+}
+
+.section {
+  background-color: white;
+  z-index: 1000;
+  padding: 6px 44px 36px 44px;
+  margin: 52px 10% 52px 35%;
+  border-radius: 8px;
+  box-shadow: 8px 12px 32px #00000056;
+} @media screen and (max-width: 1000px) {
+  .section {
+    margin: 52px 36px 52px 36px; } }
+
+/* This is used to notify user should not use mobile */
+.for-desktop {
+  display: block;
+} @media screen and (max-width: 1000px) {
+  .for-desktop  {
+    display: none;
+  } 
+}
+.for-mobile {
+  display: none;}
+@media screen and (max-width: 1000px) {
+  .for-mobile  {
+    display: block;
+    background-color: white;
+    box-shadow: 8px 12px 32px #00000056;
+    border-radius: 12px;
+    margin: 20% 10% 10% 10%;
+    padding: 10%;
+  } 
+} .for-mobile .p {
+  text-align: justify;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: #976d6d;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  a:hover, a:active, a:focus {
+    color: #58b3ab;
+    text-decoration: none !important; }
+h1 {
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  user-select: none;
+}
+h2 {
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  user-select: none;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  user-select: none;
+}
+
+
+select {
+  width: 50px;
+  padding-left: 18px;
+  font-size: 18px;
+  border: 1px solid rgba(204, 204, 204, 0);
+  height: 36px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: rgba(0, 0, 0, 0.11);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* ------------------------ Fixed-div ---------------------------- */
+.fixed-div {
+  position: fixed;
+  left: 10%;
+  top: 10%;
+}
+/* -------------------------- Sample ------------------------------ */
+.sample {
+  height: 380px;
+  width: 260px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 8px 12px 32px #00000056;
+  transition: transform 1s;
+} .sample:hover {
+  transform:translate(20px, -10px);
+  transition: transform 1s;
+}
+.black-part {
+  float: left;
+  height: 380px;
+  width: 33%;
+  background-color: rgb(44, 44, 44);
+}
+.white-part {
+  float: left;
+  height: 380px;
+  width: 66%;
+  background-color: rgb(255, 255, 255);
+}
+.black-block {
+  margin: 10px;
+  height: 100px;
+  max-width: 100%;
+  border-color: rgb(47, 255, 141);
+  border-width: 1.5px;
+  border-style: dashed;
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  transition: transform 1s;
+}
+.white-block {
+  margin: 10px;
+  height: 55px;
+  max-width: 100%;
+  border-color: rgb(0, 255, 115);
+  border-width: 1.5px;
+  border-style: dashed;
+  font-size: 14px;
+  padding: 5px;
+  transition: transform 1s;
+}
+.header-block {
+  margin: 10px;
+  height: 30px;
+  max-width: 100%;
+  border-color: rgb(47, 255, 141);
+  border-width: 1.5px;
+  border-style: dashed;
+  font-size: 14px;
+  padding: 5px;
+  transition: transform 1s;
+} .header-block:hover, .white-block:hover, .black-block:hover {
+  transform:translate(5px, -5px);
+  border-color: rgb(255, 251, 27);
+  transition: transform 1s;
+} .black-block a {
+  font-size: 14px;
+  color: white;
+} .header-block a, .white-block a {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+
+
+/* Create two equal columns that floats next to each other */
+.column-4 {
+  float: left;
+  width: 32%;
+  padding: 0 1% 0 0;
+}
+.column-8 {
+  float: left;
+  width: 66%;
+  padding: 0 1% 0 0;
+}
+.column-6 {
+  float: left;
+  width: 49%;
+  padding: 0 1% 0 0;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1000px) {
+  .column-4 {
+    width: 100%;
+  }
+  .column-8 {
+    width: 100%;
+  }
+  .column-6 {
+    width: 100%;
+  }
+}
+
+
+
+/* --------------------------- Form ------------------------------ */
+.form_group {
+  position: relative;
+  padding: 18px 0 18px 0;
+  }
+  
+  .form_field {
+    background-color: transparent;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #9b9b9b;
+    outline: 0;
+    color: rgb(80, 80, 80);
+    font-weight: 700;
+    padding: 8px 0;
+    transition: border-color 0.2s;
+    cursor: pointer;
+  }
+  .form_field::placeholder {
+    color: transparent;
+  }
+  .form_field:placeholder-shown ~ .form_label {
+    cursor: pointer;
+    top: 20px;
+  }
+  
+  .form_label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.3s;
+    color: #838383;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  .form_field:focus {
+    padding-bottom: 8px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+  }
+  .form_field:focus ~ .form_label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    color: #11998e;
+    font-weight: 700;
+  }
+  
+  /* reset input */
+  .form_field:required, .form_field:invalid {
+    box-shadow: none;
+  }
+
+
+
+  /* ----------------------------- Button -------------------------------------- */
+  .example_f {
+    border-radius: 4px;
+    background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    padding: 12px;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  .example_f span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  .example_f span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .example_f:hover span {
+    padding-right: 25px;
+  }
+  .example_f:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
