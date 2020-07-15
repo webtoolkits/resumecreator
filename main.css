@@ -9,7 +9,7 @@
   user-select: none;
 }
 .start-box {
-  padding: 35% 0 45% 0;
+  margin: 10% 14% 10% 14%;
   text-align: center;
 }
 .download-box {
@@ -88,7 +88,6 @@ h3 {
   user-select: none;
 }
 
-
 select {
   width: 50px;
   padding-left: 18px;
@@ -104,14 +103,26 @@ select {
 }
 
 
+/* ----------------------- Sticky-div --------------------------- */
+.sticky-div {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* background-color: #58b3ab48; */
+  padding: 75px 0 0 125px;
+  width: 1px;
+  height: 1px;
+}
+
 /* ------------------------ Fixed-div ---------------------------- */
-.fixed-div {
+/* .fixed-div {
   position: fixed;
   left: 10%;
   top: 10%;
-}
+} */
 /* -------------------------- Sample ------------------------------ */
 .sample {
+  z-index: 1000;
   height: 380px;
   width: 260px;
   background-color: rgb(255, 255, 255);
