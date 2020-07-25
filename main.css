@@ -8,21 +8,24 @@
   font-size: 36px;
   user-select: none;
 }
+
 .start-box {
-  margin: 10% 14% 10% 14%;
+  margin: 9% 14% 10% 14%;
   text-align: center;
 }
+
 .download-box {
   padding: 5% 0 5% 0;
   text-align: center;
 }
+
 .rounded-btn {
   padding: 20px 40px;
   border-radius: 100px;
   background-color: white;
   box-shadow: 8px 12px 32px #00000056;
   cursor: pointer;
-} .rounded-btn:hover, .rounded-btn:active, .rounded-btn:focus {
+} .rounded-btn:hover {
   padding: 20px 80px;
 }
 
@@ -36,6 +39,34 @@
 } @media screen and (max-width: 1000px) {
   .section {
     margin: 52px 36px 52px 36px; } }
+.section-header {
+  position: absolute;
+  right: 0;
+  /* background-color: rgba(46, 46, 46, 0.164); */
+  z-index: 1000;
+  /* padding: 0px 0px 0px 0px; */
+  margin: 0px 15% 0px 0%;
+  text-align: justify;
+}
+.section-header-2 {
+  position: absolute;
+  left: 0;
+  /* background-color: rgba(46, 46, 46, 0.164); */
+  z-index: 1000;
+  /* padding: 0px 0px 0px 0px; */
+  margin: 0px 0% 0px 14%;
+  text-align: justify;
+}
+.section-footer {
+  color: white;
+  background-color: rgb(46, 46, 46);
+  z-index: 1000;
+  padding: 6px 44px 36px 44px;
+  margin: 52px 10% 150px 35%;
+  border-radius: 8px;
+  box-shadow: 8px 12px 32px #00000056;
+  text-align: justify;
+}
 
 /* This is used to notify user should not use mobile */
 .for-desktop {
@@ -63,13 +94,23 @@
 
 a {
   text-decoration: none;
-  color: #976d6d;
+  color: wheat;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  a:hover, a:active, a:focus {
-    color: #58b3ab;
+  a:hover {
+    color: #ffffff;
     text-decoration: none !important; }
+.sub-a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  .sub-a:hover {
+    color: rgb(0, 170, 147);
+    text-decoration: none !important; }
+
 h1 {
   padding-top: 20px;
   font-size: 28px;
@@ -286,8 +327,6 @@ select {
   .form_field:required, .form_field:invalid {
     box-shadow: none;
   }
-
-
 
   /* ----------------------------- Button -------------------------------------- */
   .example_f {

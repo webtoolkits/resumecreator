@@ -21,7 +21,7 @@
     <!-- <link rel="stylesheet" href="/main.css"> -->
 
     <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- <script src="js/modernizr-2.6.2.min.js"></script> -->
 
     <!-- AOS -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
@@ -52,6 +52,18 @@
     </div>
 
     <div class="for-desktop">
+
+        <!-- Header -->
+        <p style="color: transparent; font-size: 10px;">.</p>
+        <div class="section-header" style="color: transparent;">
+            <a href="#about2" class="sub-a" target="_blank" rel="noopener noreferrer">About</a>
+            ___<a href="#termsofuse" class="sub-a" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+            ___<a href="#privacypolicy" class="sub-a" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+            ___<a href="#contact2" class="sub-a" target="_blank" rel="noopener noreferrer">Contact</a>
+        </div>
+        <div class="section-header-2" style="color: transparent;">
+            <a href="#" class="sub-a" target="_blank" rel="noopener noreferrer">ResumeCreator</a>
+        </div>
 
         <!-- Start-box -->
         <div class="start-box">
@@ -203,8 +215,10 @@
             <!-- ------------------------------- Experience ------------------------------- -->
             <div class="section" id="experience">
                 <h1>Experience</h1>
-                <h3>List your experiences here (work experiences, notable organization/club activities, outstanding
+                <h3>List your latest experiences here (work experiences, notable organization/club activities,
+                    outstanding
                     projects, etc)</h3>
+                <h3>Quick tip: Descriptions should be written in about 20-40 words.</h3>
             </div>
             <!-- exp1 -->
             <div class="section">
@@ -390,7 +404,7 @@
             <!-- ------------------------------- Award ------------------------------- -->
             <div class="section" id="award">
                 <h1>Award</h1>
-                <h3>List your notable awards/prizes/rank in competitions here</h3>
+                <h3>List your notable awards/prizes/rank in competitions/events here</h3>
             </div>
             <!-- awa1 -->
             <div class="section">
@@ -502,7 +516,7 @@
             <div class="section" id="additional">
                 <h1>Additional</h1>
                 <h3>This is an additional category, you can add what you want, such as extracurricular activities,
-                    works or projects, publications, certificates, internships, volunteers, etc.</h3>
+                    highlight projects, publications, researches, certificates, volunteers, etc.</h3>
                 <div class="form_group">
                     <input type="input" class="form_field" placeholder="58" name="58" id='58' required />
                     <label for="58" class="form_label">Additional Title</label>
@@ -602,13 +616,7 @@
 
         </form>
 
-        <!-- <div class="section">
-        <div style="height: 28px;"></div>
-        <a class="example_f" onclick="getFormInput()">
-            <span>Download your Resume</span>
-        </a>
-    </div> -->
-
+        <!-- Download Button -->
         <div class="section" style="background-color: transparent; box-shadow: 8px 12px 32px #00000000;">
             <div class="download-box">
                 <a class="rounded-btn" onclick="getFormInput()" style="color: teal; font-weight: 700;">
@@ -617,10 +625,57 @@
             </div>
         </div>
 
-        <div class="section">
+        <!-- <div class="footer">
             <p class="title">ResumeCreator</p>
             <h3>A product by <a href="http://buiquangbao.github.io/" target="_blank" rel="noopener noreferrer">
                     Bui Quang Bao</a></h3>
+        </div> -->
+
+
+        <div class="section-footer">
+            <p class="title">ResumeCreator</p>
+            <a href="#about2" target="_blank" rel="noopener noreferrer">About</a>
+            | <a href="#termsofuse" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+            | <a href="#privacypolicy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+            | <a href="#contact2" target="_blank" rel="noopener noreferrer">Contact</a>
+
+            <h2 id="about2">About</h2>
+            Resume Creator, an absolutely free resume builder online, began in July 2020 when I was a first-year student
+            and tried making my first own resume. I noticed that it takes a lot of time to format, complete, and
+            especially update a resume. I looked for some tools on the internet, but most of them are paid services.
+            <br>Sensing an opportunity to apply my self-study knowledge into reality, I started to search, work, learn,
+            and build my own web tool, my first serious real-life project outside the university.
+
+            <h2 id="termsofuse">Terms of Use</h2>
+            You must not use ResumeCreator in any way that causes, or may cause, damage to anyone, or in any way which
+            is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or
+            harmful purpose or activity.<br>ResumeCreator has no control over and assumes no responsibility for the
+            content that you have provided.
+
+            <h2 id="privacypolicy">Privacy Policy</h2>
+            ResumeCreator DOESN'T collects ANY personal information (include name, contact information, email, phone
+            number, address, employment history, education records, list of awards, etc).
+            <br>ResumeCreator DOESN'T split, sell, share, or rent ANY personal information about you with other third
+            parties.
+
+            <h2 id="contact2">Contact</h2>
+            <a href="mailto:quangbao.co@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+            | <a href="https://www.linkedin.com/in/buiquangbao/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            | <a href="http://buiquangbao.github.io/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+
+            <br><br><br>
+            ResumeCreator, since 2020
+            <div class="row">
+                <div class="column-6">
+                    <h3>Developed by <a href="http://buiquangbao.github.io/" target="_blank" rel="noopener noreferrer">
+                            Bui Quang Bao</a></h3>
+                </div>
+                <div class="column-6" style="text-align: right;">
+                    <h3>2020 &copy; ALL RIGHTS RESERVED</h3>
+                </div>
+            </div>
+
+
         </div>
 
     </div>
@@ -631,10 +686,10 @@
     <script src="js/jquery.min.js"></script>
     <!-- <script src="/js/jquery.easing.1.3.js"></script> -->
     <!-- <script src="/js/bootstrap.min.js"></script> -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- <script src="js/jquery.waypoints.min.js"></script> -->
+    <!-- <script src="js/jquery.flexslider-min.js"></script> -->
     <!-- <script src="/js/owl.carousel.min.js"></script> -->
-    <script src="js/jquery.countTo.js"></script>
+    <!-- <script src="js/jquery.countTo.js"></script> -->
 
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
