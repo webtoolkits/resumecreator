@@ -331,9 +331,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		});
 	});
 });
-
-//----------------------------- Anti Copy Content -------------------------------
-document.addEventListener('copy', function (e) {
-	e.preventDefault();
-	e.clipboardData.setData("text/plain", "Please repect me! Do not copy my content! If you actually need this for the right purpose, feel free to mail me directly. Thanks! But if you can h4ck this site and copy, please let me know your name! It's my pleasure!");
-})
